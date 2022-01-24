@@ -40,7 +40,7 @@ const getInfo = async (event) => {
             dataHide.classList.remove('data_hide');
             
         } catch {
-            city_name.innerText = `Please Enter the City Name Properly`;
+            city_name.innerText = "Please Enter the City_name Properly";
             dataHide.classList.add('data_hide');
         }
     }
